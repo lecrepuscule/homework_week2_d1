@@ -13,18 +13,18 @@ soundBoard.setup = function() {
 
 soundBoard.playClickHandler = function(e) {
   e.preventDefault();
-  if(this.getAttribute("data-state") === "playing") {
-    soundBoard.pause();
-  } else {
+  // if(this.getAttribute("data-state") === "playing") {
+  //   soundBoard.pause();
+  // } else {
     soundBoard.play(this.id);
-  }
+  // }
 }
 
 
 soundBoard.play = function(character){
+  soundManager.stopAll();
   soundManager.destroySound(character);
   var sound = this.getSound(character);
-  console.log("sound is "+ sound);
   // if (this.getAttribute("data-state") ==="stopped") {
     this.currentSound.play();
   // } else if (this.getAttribute("data-state") === "paused") {
