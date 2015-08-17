@@ -13,18 +13,17 @@ soundBoard.setup = function() {
 
 soundBoard.playClickHandler = function(e) {
   e.preventDefault();
-  console.log("this is "+this);
   if(this.getAttribute("data-state") === "playing") {
     soundBoard.pause();
   } else {
-    soundBoard.play();
+    soundBoard.play(this.id);
   }
 }
 
 
-soundBoard.play = function(){
-  soundManager.destroySound("marine");
-  var sound = this.getSound("marine");
+soundBoard.play = function(character){
+  soundManager.destroySound(character);
+  var sound = this.getSound(character);
   console.log("sound is "+ sound);
   // if (this.getAttribute("data-state") ==="stopped") {
     this.currentSound.play();
