@@ -1,0 +1,37 @@
+body {
+  background: url("../images/terranSplash.jpg");
+  background-size: cover;
+}
+
+#dropship {
+  background: url("../images/anim_dropship_talk.gif");
+  background-size: cover;
+}
+
+#marine {
+  background: url("../images/anim_marine_idle.gif");
+  background-size: cover;
+}
+
+#science-vessel {
+  background: url("../images/anim_science_vessel_talk.gif");
+  background-size: cover;
+}
+#tank {
+  background: url("../images/anim_tank_talk.gif");
+  background-size: cover;
+}
+#wraith {
+  background: url("../images/anim_wraith_talk.gif");
+  background-size: cover;
+}
+#battlecruiser {
+  background: url("../images/anim_battlecruiser_talk.gif");
+  background-size: cover;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
