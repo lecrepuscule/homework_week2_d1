@@ -13,18 +13,21 @@ body {
   background-size: cover;
 }
 
-#science-vessel {
+#scienceVessel {
   background: url("../images/anim_science_vessel_talk.gif");
   background-size: cover;
 }
+
 #tank {
   background: url("../images/anim_tank_talk.gif");
   background-size: cover;
 }
+
 #wraith {
   background: url("../images/anim_wraith_talk.gif");
   background-size: cover;
 }
+
 #battlecruiser {
   background: url("../images/anim_battlecruiser_talk.gif");
   background-size: cover;
@@ -36,6 +39,7 @@ body {
   margin: 0px 50px 0px 20px;
   display: inline-block;
 }
+
 .row1 {
   margin: 100px 50px 50px 50px;
 }
