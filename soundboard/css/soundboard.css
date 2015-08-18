@@ -38,6 +38,15 @@ body {
   height: 80px;
   margin: 0px 50px 0px 20px;
   display: inline-block;
+  border-radius: 6px;
+}
+
+.button:hover { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    width: 85px;
+    height: 85px;
 }
 
 .row1 {
